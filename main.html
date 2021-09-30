@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+<head>
+	
+	<link rel="stylesheet" href="./css/style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>flex</title>
+</head>
+<body>
+	<div class="container">
+		<header class="header">
+			<div class="logo">
+				<img src="./img/logo f2.png" alt="portlan" class="logo">
+			</div>
+			<form action="#" class="search">
+				<input type="text" class="search__input" placeholder="جست و جو کنید...">
+				<button class="search__button" type="button">
+					<svg class="search__icon">
+						<use xlink:href="./img/symbol-defs.svg#icon-search"></use>
+					</svg>
+				</button>
+			</form>
+			<nav class="user-nav">
+				<div class="user-nav__icon-box">
+					<svg class="user-nav__icon">
+						<use xlink:href="./img/symbol-defs.svg#icon-bookmark"></use>
+					</svg>
+					<span class="user-nav__notif">17</span>
+				</div>
+				<div class="user-nav__icon-box">
+					<svg class="user-nav__icon">
+						<use xlink:href="./img/symbol-defs.svg#icon-bubbles2"></use>
+					</svg>
+					<span class="user-nav__notif">29</span>
+				</div>
+				
+				<div class="user-nav__icon-box">
+					<img src="./img/IMG_2484.jpg" alt="pl logo" class="user-nav__user-photo">
+					<button class="user-nav__user-name">پورتلن</button>
+				</div>
+
+			</nav>
+		</header>
+		<div class="content">
+			<nav class="sidebar">
+				<ul class="side-nav">
+					<li class="side-nav__item side-nav__item--active">
+						<a href="#" class="side-nav__link">
+							<svg class="side-nav__icon">
+								<use xlink:href="./img/symbol-defs.svg#icon-home"></use>
+							</svg>
+							<span>هتل</span>
+
+						</a>
+					</li>
+					<li class="side-nav__item ">
+						<a href="#" class="side-nav__link">
+							<svg class="side-nav__icon">
+								<use xlink:href="./img/symbol-defs.svg#icon-aircraft"></use>
+							</svg>
+							<span>پرواز</span>
+
+						</a>
+					</li>
+					<li class="side-nav__item">
+						<a href="#" class="side-nav__link">
+							<svg class="side-nav__icon">
+								<use xlink:href="./img/symbol-defs.svg#icon-key""></use>
+							</svg>
+							<span>اجاره خودرو</span>
+
+						</a>
+					</li>
+					<li class="side-nav__item ">
+						<a href="#" class="side-nav__link">
+							<svg class="side-nav__icon">
+								<use xlink:href="./img/symbol-defs.svg#icon-map"></use>
+							</svg>
+							<span>نقشه</span>
+
+						</a>
+					</li>
+					<li class="side-nav__item">
+						<a href="#" class="side-nav__link">
+							<svg class="side-nav__icon">
+								<use xlink:href="./img/symbol-defs.svg#icon-users"></use>
+							</svg>
+							<span>ارتباط با ما</span>
+
+						</a>
+					</li>
+				</ul>
+				<div class="copy">
+					&copy; 2021 by amanda alright reserved dont copy 
+				</div>
+			</nav>
+			<main class="main">
+				<div class="gallery">
+					<figure class="gallery__item">
+						<img src="./img/11.jpg" alt="1" class="gallery__photo">
+						<figcaption class="gallery__caption">رستوران دیبا</figcaption>
+					</figure>
+					<figure class="gallery__item">
+						<img src="./img/22.jpg" alt="2" class="gallery__photo">
+						<figcaption class="gallery__caption">کافه سان ست</figcaption>
+					</figure>
+					<figure class="gallery__item">
+						<img src="./img/33.jpg" alt="3" class="gallery__photo">
+						<figcaption class="gallery__caption">رستوران لاتون</figcaption>
+					</figure>
+				</div>
+				<!-----------------------------gallery------------------------->
+
+				<div class="overview">
+					<h1 class="overview__heading">هتل اسپیناس پالاس</h1>
+					<div class="overview__star">
+						<svg class="overview__star--icon">
+							<use xlink:href="./img/symbol-defs.svg#icon-star-full"></use>
+						</svg>
+						<svg class="overview__star--icon">
+							<use xlink:href="./img/symbol-defs.svg#icon-star-full"></use>
+						</svg>
+						<svg class="overview__star--icon">
+							<use xlink:href="./img/symbol-defs.svg#icon-star-full"></use>
+						</svg>
+						<svg class="overview__star--icon">
+							<use xlink:href="./img/symbol-defs.svg#icon-star-full"></use>
+						</svg>
+						<svg class="overview__star--icon overview__star--icon-1">
+							<use xlink:href="./img/symbol-defs.svg#icon-star-full"></use>
+						</svg>
+
+					</div>
+					<div class="overview__location">
+						<svg class="overview__location--icon">
+							<use xlink:href="./img/symbol-defs.svg#icon-location2"></use>
+						</svg>
+						<button class="btn-inline">تهران،سعادت آباد</button>
+					</div>
+					<div class="overview__rating">
+						<div class="overview__rating--average">۷،۱</div>
+						<div class="overview__rating--votes">۷۲۹ رای</div>
+
+					</div>
+				</div>
+				<!------------------------overview----------------------->
+				<div class="detail">
+					<div class="description">
+						<p class="paragraph">اسپیناس پالاس با قرار گرفتن در منطقه ی شمال تهران مانند جواهری نهان در یک بهشت آرام نگاه ها را به خود خیره می کند. این هتل با در نظر گرفتن انتظا رات متفاوت، خدمات لوکس متفاوتی را ارائه می دهد. همچنین، طراحی این هتل با استفاده از معماری معاصر و متاثر از معماری حیرت انگیز گذشته، سلیقه های همه ی سنین را در نظر گرفته است. شاید به همین خاطر باشد که اسم آن را "کاخ" انتخاب کرده اند. علاوه بر این، به عنوان یکی از بهترین ساحتمان های موجود در تهران، این کاخ چشم نواز شامل یک لابی باشکوه، فضاهای عمومی شگرف و مخصوصا اتاق های مجهز و استاندارد می باشد.
+
+						</p>
+						<p class="paragraph">در این هتل همه ی انتظاراتی که از یک هتل پنج ستاره می رود به بهترین نحو پاسخ داده می شود. این ویژگی سبب شده است تا همه ی مهمانان اقامت راحت و دلچسبی را تجربه کنند. ما از اینکه پذیرای حضور گرم شما در اسپیناس پالاس باشیم عمیقا خوشحال خواهیم بود.
+
+						</p>
+						<ul class="list">
+							<li class="list__item">
+								<svg class="list__svg">
+									<use xlink:href="./img/symbol-defs.svg#icon-chevron-thin-left"></use><
+								</svg>
+								پکیج تولد
+							</li>
+							<li class="list__item">
+								<svg class="list__svg">
+									<use xlink:href="./img/symbol-defs.svg#icon-chevron-thin-left"></use><
+								</svg>
+								پکیج اتاق و شام
+
+							</li>
+							<li class="list__item">
+								<svg class="list__svg">
+									<use xlink:href="./img/symbol-defs.svg#icon-chevron-thin-left"></use><
+								</svg>
+								سالن کنسرت
+							</li>
+							<li class="list__item">
+								<svg class="list__svg">
+									<use xlink:href="./img/symbol-defs.svg#icon-chevron-thin-left"></use><
+								</svg>
+								پرسنل چندزبانه
+							</li>
+							<li class="list__item">
+								<svg class="list__svg">
+									<use xlink:href="./img/symbol-defs.svg#icon-chevron-thin-left"></use><
+								</svg>
+								پکیج سالگرد ازدواج
+							</li>
+							<li class="list__item">
+								<svg class="list__svg">
+									<use xlink:href="./img/symbol-defs.svg#icon-chevron-thin-left"></use><
+								</svg>
+								پکیج رزرو زودهنگام
+							</li>
+							<li class="list__item">
+								<svg class="list__svg">
+									<use xlink:href="./img/symbol-defs.svg#icon-chevron-thin-left"></use><
+								</svg>
+								قهوه و چاشنی رایگان
+							</li>
+							<li class="list__item">
+								<svg class="list__svg">
+									<use xlink:href="./img/symbol-defs.svg#icon-chevron-thin-left"></use><
+								</svg>
+								راننده ی روزانه
+							</li>
+						</ul>
+						<div class="recommend">
+							<p class="recommnd__count">شمر ابن زی الجوشن و <span class="span1">۳</span> نفر دیگر به این هتل نظر دادند.
+
+							</p>
+							<div class="recommend__friends">
+								<img src="./img/11.jpg" alt="1" class="recommend__photo">
+								<img src="./img/22.jpg" alt="2" class="recommend__photo">
+								<img src="./img/33.jpg" alt="3" class="recommend__photo">
+								<img src="./img/IMG_2484.jpg" alt="4" class="recommend__photo">
+							</div>
+
+						</div>
+					</div>
+					
+				
+				<!--------------------detail------------------>
+
+					<div class="user__review">
+						<figure class="review">
+							<blockquote class="review__text">
+								<div class="review__box">
+									<svg class="review__svg--1 review__svg">
+										<use xlink:href="./img/symbol-defs.svg#icon-arrow-long-up"></use>
+									</svg>
+									<p class="review__para">موقعیت مکانی زیبایی ویوو تمیزی سلف صبحانه</p>
+								</div>
+								<div class="review__box">
+									<svg class="review__svg--2 review__svg">
+										<use xlink:href="./img/symbol-defs.svg#icon-arrow-long-down"></use>
+									</svg>
+									<p class="review__para">حتما پرسنل نیاز به آموزش بیشتر دارن</p>
+								</div>
+							</blockquote>
+							<figcaption class="review__user">
+							<img src="./img/mahatma_gandi.jpg" alt="gandi" class="review__photo">
+							
+							<div class="review__user--box">
+								<p class="review__user--para">ماهتما گاندی</p>
+								<p class="review__user--para">00/01/01</p>
+							</div>
+							<div class="review__rating">۶.۰</div>
+							</figcaption>
+						</figure>
+						<figure class="review">
+							<blockquote class="review__text">
+								<div class="review__box">
+									<svg class="review__svg--1 review__svg">
+										<use xlink:href="./img/symbol-defs.svg#icon-arrow-long-up"></use>
+									</svg>
+									<p class="review__para">زیبایی نما موقعیت مکانی مناسب</p>
+								</div>
+								<div class="review__box">
+									<svg class="review__svg--2 review__svg">
+										<use xlink:href="./img/symbol-defs.svg#icon-arrow-long-down"></use>
+									</svg>
+									<p class="review__para">اکثر پرسنل بسیار بی توجه و البته بداخلاق بودن صبحانه اصلا در حد اسم و شهرتی که در کرده نبود</p>
+								</div>
+							</blockquote>
+							<figcaption class="review__user">
+							<img src="./img/karim-benzema-real-madrid_1jw15twfovy7w1ub2opd05rb0v.jpg" alt="gandi" class="review__photo">
+							
+							<div class="review__user--box">
+								<p class="review__user--para">کریم بنزما</p>
+								<p class="review__user--para">00/01/01</p>
+							</div>
+							<div class="review__rating">۷.۰</div>
+							</figcaption>
+
+						</figure>
+						<div class="a-btn">
+							<a href="#" class="btn">نمایش همه</a>
+						</div>
+						
+					</div>
+
+				</div>
+
+			<!--------------------------user-nav------------------------->
+			<div class="cta">
+				<h2 class="cta__para">تبریک ؛ شما برنده چهار شب اقامت رایگان در هتل ما شدید</h2>
+				<button class="cta__btn">
+					<span class="cta__btn--visible">رزرو اتاق</span>
+					<span class="cta__btn--invisible">۴ شب اقامت رایگان</span>
+				</button>
+			</div>
+			</main>
+		</div>
+	</div>
+
+	
+</body>
+</html>
